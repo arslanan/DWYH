@@ -1,0 +1,268 @@
+/* Pour IE et les balises HTML5 ***********************************/
+header, footer, section, hgroup, aside, nav, article, figure, figcaption, time, dialog
+{
+	display: block;
+}
+
+/* le body ********************************************************/
+
+body
+{
+	background-color: #ffffff;  /* Le fond  */ 
+	padding:10px;
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: #0D0630;          /* Le texte   */ 
+}
+
+a:hover
+{
+	color: #D35B10;  /* le texte uen fois surligné */ 
+}
+
+div#global {
+	margin: 0 auto;
+}
+
+acronym
+{
+	border-bottom: 1px;
+	border-bottom-color: #ffffff; 
+	border-bottom-style: dashed;
+}
+
+/* Le menu *********************************************************/
+
+header
+{
+	text-align: center;
+}
+
+header ul
+{
+	list-style: none;
+	line-height: 30px;
+}
+
+header li
+{
+	display: inline;
+}
+
+
+header li a
+{
+	display: inline-block;
+	text-align: center;
+	font-weight: lighter;
+	
+}
+
+header a
+{
+	font-size: 3em;
+	
+	margin: 0 50px;
+	
+	color: #5e5e5e;
+	width: 150px;
+}
+
+header li a:hover
+{
+	/* clui ou on passe la souris  */
+	color: #d35b10;  /* Couleur du texte   */ 
+	text-decoration: underline;
+}
+
+header li#current a   /* celui qui est validé */ 
+{
+	
+	text-decoration: underline;
+	color: #d35b10;
+}
+
+/* Truc commun Ã  toute les pages *************************************/
+
+section
+{
+	
+	padding: 10px;
+	margin : 5em;
+	font-weight: 300;
+}
+
+section h1.titre
+{
+	font-weight: 400;
+	margin-left: -10px;
+	margin-bottom: 20px;
+}
+
+
+
+section h3 img
+{
+	float: right;
+	margin-top: 1px;
+	margin-right: 2px;
+	border-radius: 0px 6px 0 0;
+}
+
+/* le contenu de la page "index" *************************************/
+
+#subheader
+{
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 40px;
+	font-weight: 300;
+}
+#contenu h1{
+	font-weight: 300;
+}
+
+
+div#subheader img
+{
+	height: 80px;
+	margin: 0px 50px 0px 50px;
+}
+
+/* le contenu de la page "projet" *************************************/
+
+#introduction
+{
+	margin: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+
+}
+
+#sommaire
+{
+	text-align: center;
+	border: 1px;
+	border-style: solid;
+	border-color: #999999;
+	padding-right: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#sommaire h4
+{
+	text-align: center;
+	font-weight: 300;
+}
+
+
+#sommaire a
+{
+	color: #555555;
+}
+
+#sommaire a:hover
+{
+	color: darkblue;
+}
+
+.clear
+{
+	display: block;
+	clear: both;
+}
+
+table#hough
+{
+	float: right;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+table#hough img
+{
+	width: 350px;
+}
+
+p#zonespic
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+p#zonespic img
+{
+	height: 130px;
+	margin: 0 30px 0 30px;
+}
+
+img#texturespic
+{
+	float: right;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 150px;
+}
+
+/* Le contenu de la page "galerie" ************************************/
+
+#montage
+{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#montage img
+{
+	width: 800px;
+}
+
+#montage iframe
+{
+	frameborder: 0;
+}
+
+/* Le contenu de la page "rapports" ************************************/
+
+#rapport img
+{
+	height: 40px;
+}
+
+#rapport table
+{
+	margin: auto;
+}
+
+/* le footer de toute les pages ****************************************/
+
+footer img
+{
+	height: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+footer
+{
+	text-align: center;
+}
+
+footer ul
+{
+	list-style: none;
+	line-height: 50px;
+}
+
+footer li
+{
+	display: inline;
+
+}
+
