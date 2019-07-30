@@ -28,14 +28,14 @@
 				</ul>
 				<hr />
 			</header>
-		    <!--
+		    
 			<div id="contenu">
 				<div id="introduction">
 					<div id="sommaire">
 						<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SOMMAIRE</h4>
 						<ol>
 							<li><a href="#_partie_1">&Eacute;tat de l'art</a></li>
-							<li><a href="#_partie_2">D&eacute;tections des mains</a></li>
+							<li><a href="#_partie_2">D&eacute;tection des mains</a></li>
 							<li><a href="#_partie_3">Filtrage de l'image de main</a></li>
 							<li><a href="#_partie_4">D&eacute;tection des mouvements</a></li>
 							<li><a href="#_partie_5">R&eacute;sultats</a></li>
@@ -78,7 +78,7 @@
 				
 				<section>
 					<a id="_partie_3"></a>
-					<h1 class="titre">2. Recherche de zones selon des crit&egrave;res : couleurs et spatiales <a href="#_top"><img src="images/top.png" alt="top"/></a></h1>
+					<h1 class="titre">2. Détection des mains <a href="#_top"><img src="images/top.png" alt="top"/></a></h1>
 					<p>
 					Cette partie n'aura malheureusement abouti &agrave;  aucun r&eacute;sultat exploitable. En effet, ce travail a &eacute;t&eacute; fait dans un but d'exploration et sans promesse de r&eacute;ussite.<br />
 					Un des premiers algorithmes de classification des objets &eacute;tait bas&eacute; sur une m&eacute;thode de regroupement en gaussienne des caract&eacute;ristiques des objets. Cette m&eacute;thode est g&eacute;n&eacute;ralisable &agrave;  d'autres buts et permet donc a priori de s&eacute;parer n'importe quel espace en clusters sous forme de gaussienne. Nous avons donc voulu l'utiliser pour r&eacute;ussir &agrave;  segmenter une image poss&egrave;dant plusieurs objets superpos&eacute;s afin de trouver des zones et donc de s&eacute;parer les objets "attach&eacute;s". Malheureusement, l'&eacute;tape de discretisation de l'image &eacute;tait tr&egrave;s consommatrice en m&eacute;moire et prenait ensuite &eacute;norm&eacute;ment de temps &agrave;  analyser. Cette m&eacute;thode a &eacute;t&eacute; essay&eacute;e pour travailler sur les couleurs (espace HSV, 3 dimensions) puis ensuite sur les couleurs ET une information spatiale (HS et XY, 4 dimensions). Quelques r&eacute;sultats montrant cette transformation sont illustr&eacute;s ci-dessous. Dans l'ordre nous avons l'image originale, le traitement en utilisant uniquement la couleur (HSV) puis le m&ecirc;me traitement en servant de la couleur (H et S) et l'espace (X et Y).
@@ -92,7 +92,7 @@
 				
 				<section>
 					<a id="_partie_4"></a>
-					<h1 class="titre">3. Extraction des sols et murs en 3D <a href="#_top"><img src="images/top.png" alt="top"/></a></h1>
+					<h1 class="titre">3. Filtrage de l'image de main <a href="#_top"><img src="images/top.png" alt="top"/></a></h1>
 					<p>
 					Lors du dernier mois avant la comp&eacute;tition, il a &eacute;t&eacute; d&eacute;cid&eacute; de se pencher sur l'analyse des textures des sols et des murs afin de remporter des points suppl&eacute;mentaires (10% de la note finale sur cette &eacute;preuve). Pour cela, il fallait tout d'abord extraire les sols et les cloisons des nuages 3D afin de pouvoir reconstruire des images 2D avec uniquement ces zones.
 					</p>
@@ -123,7 +123,7 @@
 				
 				<section>
 					<a id="_partie_5"></a>
-					<h1 class="titre">4. Semaine de d&eacute;fi <a href="#_top"><img src="images/top.png" alt="top"/></a></h1>
+					<h1 class="titre">4. Détection des mouvements <a href="#_top"><img src="images/top.png" alt="top"/></a></h1>
 					<p>
 						Pour conclure ces d&eacute;veloppements, une mise en application directe a &eacute;t&eacute; faite durant la semaine du 4 au au 8 juin 2012 pour le d&eacute;fi Carotte. Durant cette semaine, toute l'&eacute;quipe s'est r&eacute;uni sur le site de la comp&eacute;tition &agrave;  Bourges pour affronter nos comp&eacute;titeurs (quatre autres consortiums liant grandes &eacute;coles et entreprises). Certains membres de l'&eacute;quipe ont ainsi pu rencontrer les ing&eacute;nieurs, doctorants et enseignants du LORIA, venant de Nancy. Auparavant, une semaine de test a &eacute;t&eacute; effectu&eacute;e afin de peaufiner les diff&eacute;rentes t&acirc;ches, s'assurer que les robots fonctionnent correctement m&eacute;caniquement (test unitaire) et tous ensemble (test collectif, simulations de missions r&eacute;elles). Hormis un petit accident (une chute d'un robot dans les escaliers), les tests &eacute;taient dans l'ensemble concluant voire tr&egrave;s prometteur.</p>
 					<p>
@@ -136,18 +136,16 @@
 				
 				<section>
 					<a id="_partie_6"></a>
-					<h1 class="titre">5. Autres travaux <a href="#_top"><img src="images/top.png" alt="top"/></a></h1>
-					<h4>Apr&egrave;s le concours</h4>
+					<h1 class="titre">5.  Résultats <a href="#_top"><img src="images/top.png" alt="top"/></a></h1>
+				
 					<p>
-						Une fois le concours termin&eacute;, ma mission principale s'est achev&eacute;e. Cependant, le travail n'est pas termin&eacute;. En effet, certains points peuvent &ecirc;tre am&eacute;lior&eacute; et des id&eacute;es sont apparus pendant et apr&egrave;s le concours. J'ai donc commenc&eacute; &agrave;  travailler sur certains aspects de la planification de trajectoire afin d'optimiser les d&eacute;placements du robot. Ce travail n'en est qu'&agrave;  une premi&egrave;re phase de recherche sur l'&eacute;tat de l'art et la faisabilit&eacute; des concepts qui ont &eacute;t&eacute; trouv&eacute;. Je ne peux donc pas d&eacute;tailler plus cette nouvelle mission au moment d'&eacute;criture de ce site.
-					</p>
-					<h4>Vulgarisation de la science</h4>
-					<p>
-					Lors de mon stage au sein du LISA, j'ai &eacute;t&eacute; sensibilis&eacute; aux diff&eacute;rentes missions d'un enseignant-chercheur. Parmis celles-ci se trouve la vulgarisation de la science vers l'ext&eacute;rieur. En effet, le r&agrave;´le d'un chercheur est aussi de faire connaitre son activit&eacute; et de partager son savoir. Dans ce cadre, j'ai particip&eacute; &agrave;  l'organisation d'activit&eacute;s "fus&eacute;e &agrave;  eau" aupr&egrave;s d'enfants d'une &eacute;cole primaire. L'utilisation du pr&eacute;texte de l'activit&eacute; permet ainsi de faire d&eacute;couvrir et appliquer des concepts simples aux enfants tels que la notion de pression dans une bouteille, de pouss&eacute;e gr&acirc;ce &agrave;  l'eau et de trajectoire avec les ailerons.
+					En combinant la détection de gestes et de mouvements, une multitude d'actions peuvent être interprées. Ces actions sont ensuite converties en actions faites par l'orfinateur ou l'objet lié à notre programme. 
+
+					Ce travail se conclut par la création de deux interfaces de travail utilisant l'interprétation des gestes et mouvements pour interagir avec l'ordinateur. Une version de démonstration présentée dans la galerie du site et une version utilisateur, plus petite et toujours à l'ecran permettant une fluidité dans son utilisation. 
 					</p>
 				</section>
 			</div>
-		-->
+
 			<footer>
 				<hr />
 				<ul>
