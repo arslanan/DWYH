@@ -114,6 +114,13 @@ section h3 img
 	border-radius: 0px 6px 0 0;
 }
 
+#fourgraphs{
+	width:20vw;
+	text-align: center;
+	margin-top: 20px;
+	margin: 0 30px 0 30px;
+}
+
 /* le contenu de la page "index" *************************************/
 
 #subheader
@@ -190,17 +197,43 @@ table#hough img
 	width: 350px;
 }
 
-p#zonespic
+p#zonespic20
 {
 	text-align: center;
 	margin-top: 20px;
 }
 
-p#zonespic img
+p#zonespic20 img
 {
-	height: 130px;
+	width:20vw;
 	margin: 0 30px 0 30px;
 }
+
+p#zonespic10
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+p#zonespic10 img
+{
+	width:10vw;
+	margin: 0 30px 0 30px;
+}
+
+p#zonespic5
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+p#zonespic5 img
+{
+	width:7vw;
+	margin: 0 30px 0 30px;
+}
+
+
 
 img#texturespic
 {
