@@ -3,7 +3,7 @@
 
 ## Acceuil : ok 
 
-## Projet : a remplir
+## Projet : ok
 
 ## Galerie : ok 
 
